@@ -31,8 +31,6 @@ CREATE TABLE IF NOT EXISTS Leader (
     weapon_id INT REFERENCES weapon (weapon_id)
 );
 
-
-
 CREATE TABLE IF NOT EXISTS Tribesman (
     tribesman_id SERIAL PRIMARY KEY,
     tribesman_name VARCHAR(100),
