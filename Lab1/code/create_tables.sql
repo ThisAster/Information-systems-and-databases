@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS Leader (
 );
 
 CREATE TABLE IF NOT EXISTS Tribesman (
-    tribesman_id SERIAL PRIMARY KEY,
+    tribesman_id SERIAL PRIMARY KEY NOT NULL,
     tribesman_name VARCHAR(100),
     weapon_id INT REFERENCES weapon (weapon_id),
     leader_id INT REFERENCES leader (leader_id) NOT NULL
