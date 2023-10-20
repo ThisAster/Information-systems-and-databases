@@ -123,4 +123,4 @@ WHERE
 
 
 -- Запрос, который попросили сделать на сдаче лабы (вывести список стай, в которых сородич имеет оружие факел)
--- SELECT * FROM Flock INNER JOIN Leader ON flock.flock_id = leader.leader_id INNER join Tribesman ON leader.leader_id = tribesman.tribesman_id WHERE tribesman.weapon_id = 4;
+-- SELECT * FROM Flock INNER JOIN Leader ON flock.flock_id = leader.leader_id INNER join Tribesman ON leader.leader_id = tribesman.tribesman_id WHERE tribesman.weapon_id = 3;
